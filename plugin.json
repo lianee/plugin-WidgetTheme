@@ -1,6 +1,14 @@
 {
     "name": "WidgetTheme",
     "description": "Embedded widgets follow the browser theme (dark mode); themeMode=light|dark forces a mode, bgColor=rrggbb sets the background.",
+    "keywords": [
+        "widget",
+        "widgetize",
+        "embed",
+        "iframe",
+        "dark-mode",
+        "theme"
+    ],
     "version": "1.0.0",
     "theme": false,
     "require": {
@@ -11,5 +19,11 @@
             "name": "Liane"
         }
     ],
-    "license": "MIT"
+    "license": "MIT",
+    "homepage": "https://github.com/lianee/plugin-WidgetTheme",
+    "support": {
+        "issues": "https://github.com/lianee/plugin-WidgetTheme/issues",
+        "source": "https://github.com/lianee/plugin-WidgetTheme"
+    },
+    "category": "customisation"
 }

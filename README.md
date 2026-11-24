@@ -1,5 +1,7 @@
 # WidgetTheme (Matomo plugin)
 
+## Description
+
 Matomo 5 lets each user choose a theme mode (light, dark, match browser), but embedded widgets (`module=Widgetize&action=iframe`) ignore it: `plugins/Widgetize/templates/iframe.twig` never sets `data-theme-mode` on `<html>`, so widgets always render light.
 
 Once activated, the plugin makes every embedded widget follow the visitor's system/browser theme. An embedded widget can be seen by anyone visiting the host page, most of them without a Matomo account, so Matomo's per-user theme preference cannot apply and the browser setting is the only reliable signal.
@@ -15,7 +17,7 @@ Any other value is ignored (the widget stays in automatic mode) and a warning is
 
 Note: activating the plugin changes widgets already embedded elsewhere. Add `&themeMode=light` to keep the previous light rendering.
 
-## Background colour
+### Background colour
 
 By default the widget keeps Matomo's background. To blend it into the host page, give the page's background colour in hexadecimal, 3 or 6 digits:
 
